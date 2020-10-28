@@ -41,7 +41,7 @@ while True:
         break
     rfc_raw += buf
 
-print(rfc_raw)  # byte-string
+print(rfc_raw)  # byte-stringgit
 
 rfc_content = rfc_raw.decode('utf-8')  # as Unicode
 print(rfc_content)
